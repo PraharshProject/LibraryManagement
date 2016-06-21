@@ -1,0 +1,41 @@
+<form class="loginForm" ng-submit="login()" role="form">
+	<div class="container">    
+		<h2>Login</h2><br>
+		 <uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)" dismiss-on-timeout = 5000>{{alert.msg}}</uib-alert>
+  		
+		  <div class="row">
+			<div class="col-sm-12">
+			  <label for="userId">User Id</label>
+			</div>
+			
+		  </div>
+		  <div class="row">
+			<div class="col-xs-12 col-md-4 col-sm-8"> 
+			  <input type="text" class="form-control" ng-model="email" size="50" placeholder="User Id" required>
+			</div>
+		  </div>
+		<br>
+
+		  <div class="row">
+			<div class="col-sm-12">
+			  <label for="userId">Password</label>
+			</div>
+			
+			
+		  </div>
+		  <div class="row">
+			<div class="col-xs-12 col-md-4 col-sm-8"> 
+			  <input type="password" class="form-control" ng-model="password" size="50" placeholder="Password" required>
+			</div>
+		</div>
+		<br><br>
+		  <div class="row">
+			<div class="col-xs-12 col-md-4 col-sm-8"> 
+				<button type="submit" class="btn btn-info" name="loginButton" id="loginButton" >Login</button>
+			  
+			</div>
+		</div>
+		
+	</div><br><br>
+	 
+</form>

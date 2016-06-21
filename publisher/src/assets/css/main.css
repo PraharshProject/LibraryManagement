@@ -1,0 +1,65 @@
+.navbar 
+{
+  margin-bottom: 50px;
+  border-radius: 0;
+}
+
+/* Remove the jumbotron's default bottom margin */ 
+ .jumbotron {
+  margin-bottom: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+body{
+	background-color: #00395D;
+	color: #00618C;
+}
+
+.bodyContainer{
+	background-color: #FFF;
+}
+
+.loginForm{
+	padding-left: 40px;
+	height: 650px;
+}
+
+.header{
+	border-bottom: 1px solid #DDD;
+	color: powderblue;
+}
+
+input[type=checkbox],input[type=radio]{
+	width: 15px;
+	height: 15px;
+}
+
+.alert{
+  width: 50%;
+}
+.bookGrid {
+    width: 1000px;
+    height: 250px;
+  }
+.homeBookGrid{
+  width: 800px;
+  height: 250px;
+}
+.ui-grid-header-cell-wrapper{
+	height: 30px !important;
+}
+
+.tabsdemoDynamicHeight md-content {
+  background-color: transparent !important; }
+  .tabsdemoDynamicHeight md-content md-tabs {
+    background: #f6f6f6;
+    border: 1px solid #e1e1e1; }
+    .tabsdemoDynamicHeight md-content md-tabs md-tabs-wrapper {
+      background: white; }
+  .tabsdemoDynamicHeight md-content h1:first-child {
+    margin-top: 0; }

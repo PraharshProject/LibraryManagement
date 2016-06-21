@@ -1,0 +1,53 @@
+<html lang="en" ng-app="bookLib">
+	<head>
+		<title>Library</title>
+		
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="vendor/ui-grid/ui-grid.css">
+		<link rel="stylesheet" href="src/assets/css/main.css">
+
+		<script src="vendor/jQuery/jquery.min.js"></script>
+		
+		<script src="vendor/angular/angular.min.js"></script>
+		<script src="vendor/angular/angular-touch.js"></script>
+		<script src="vendor/angular/angular-animate.js"></script>
+
+		<script src="vendor/angular/angular-route.min.js"></script>
+		<script src="vendor/angular/angular-resource.min.js"></script>
+		<script src="vendor/angular/ui-bootstrap-tpls-1.3.2.min.js"></script>
+		<script src="vendor/ui-grid/ui-grid.min.js"></script>
+		
+
+		<!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
+		
+
+		<!-- Internal js reference -->
+		<!--<script src="src/app.config.js"></script>
+		<script src="src/app.module.js"></script>
+		<script src="src/app.run.js"></script>
+		-->
+		<script src="src/app.js"></script>
+		<script src="src/modules/login/controller/loginController.js"></script>
+		<script src="src/modules/login/service/loginFactory.js"></script>
+		<script src="src/modules/product/controller/productController.js"></script>
+		<script src="src/modules/product/service/productFactory.js"></script>
+		
+		<script src="src/modules/home/controller/homeController.js"></script>
+		<script src="src/modules/common/Service/session.js"></script>
+
+		<style>
+	    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+	    
+	  </style>
+	</head>
+	<body>
+		<div class="container bodyContainer">
+			<div class="header">
+				<h1>Online Book Store</h1>
+			</div>
+			<div class="row">
+				<div ng-view></div>
+			</div>
+		</div>
+	</body>
+</html>
